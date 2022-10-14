@@ -1,0 +1,27 @@
+.activity{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.activity__dragUp, .activity__dragDown{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    /* background-color: black; */
+    height: 10px;
+}
+
+.activity__dragUp:hover, .activity__dragDown:hover{
+    cursor: row-resize;
+}  
+
+
+.activity__dragUp{
+    top: 0;
+}
+
+.activity__dragDown{
+    bottom: 0;
+}

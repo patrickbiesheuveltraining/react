@@ -1,0 +1,18 @@
+.day{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.day:last-child{
+    border-right: 1px solid black;
+}
+
+.weekend{
+    background: lightgrey;
+}
+
+/* .day h2{
+    margin-bottom: 1rem;
+} */
